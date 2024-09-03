@@ -1,1 +1,1 @@
-"# Unity-Local-Push-Notifications" 
+"# 🛎Local Push Notification Manager" 
