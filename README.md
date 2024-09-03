@@ -1,17 +1,24 @@
 🛎
-Local Push Notification Manager
-
- #Description#
+# Local Push Notification Manager
+#
+#
+## Description
 Handle local push notifications for mobile devices.
 
-Import
+## Import
+```sh
 🚨 Unity Mobile Notification Package needed → If you don’t have add it
-  
-  Add the Local Push Notifications Folder to your project in Plugin Folder
+```
+- Add the Local Push Notifications Folder to your project in Plugins folder
 
-Usage
-Android
-Send a notification
+## Usage
+> Android
+
+
+##### Send a notification
+#
+
+```sh
 //DateTime -> when Tomorrow at 10:00:00 in the example
 //Time managament is an internal Gladio Games plugin of the Starter Kit
 DateTime tomorrow = TimeManagement.TomorrowAtTime(10,0,0);
@@ -23,6 +30,11 @@ string text = "Text";
 bool cancelPrevious = true;
 //Send a notification
 LocalNotificationManager.AndroidScheduleNotification(title, text, tomorrow, cancelPrevious);
+```
 
+##### Send a notification with custom icons
+#
 
-
+1. Set Icons 
+    - Prepare the icon (SMALL) (If not configured, the icon app will be used)
+    - ![Image]https://imgur.com/eihhyYY
