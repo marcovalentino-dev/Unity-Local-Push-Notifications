@@ -37,4 +37,4 @@ LocalNotificationManager.AndroidScheduleNotification(title, text, tomorrow, canc
 
 1. Set Icons 
     - Prepare the icon (SMALL) (If not configured, the icon app will be used)
-    - ![Image]https://imgur.com/eihhyYY
+https://imgur.com/eihhyYY
