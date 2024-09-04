@@ -18,7 +18,8 @@ Handle local push notifications for mobile devices.
 ##### Send a notification
 #
 
-```sh
+
+```csharp
 //DateTime -> when Tomorrow at 10:00:00 in the example
 //Time managament is an internal Gladio Games plugin of the Starter Kit
 DateTime tomorrow = TimeManagement.TomorrowAtTime(10,0,0);
